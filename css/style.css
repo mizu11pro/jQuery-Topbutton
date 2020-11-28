@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+h1{
+  text-align:center;
+  margin:50px 0px;
+}
+.box{
+  height:300px;
+  width:600px;
+  margin:0 auto 50px;
+  background-color:#eee;
+}
+#back{
+  position:fixed; /*常に同じ位置(右下)に配置 */
+  right:20px;
+  bottom:20px;
+}
+#back img{
+  width:50px;
+}
